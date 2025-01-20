@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang = "en">
+    <head>
+        <title>BT503</title>
+        <link rel="stylesheet" href = "schedule.css">
+        <script>
+            window.onload = function(){
+                let now = new Date();
+                let day = now.getDay();
+
+                switch (day){
+                    case 2:
+                        window.location.href = "tuesday.html";
+                    break;
+                    case 3:
+                        window.location.href = "wednesday.html";
+                    break;
+                    case 4:
+                        window.location.href = "thursday.html";
+                    break;
+                    case 5:
+                        window.location.href = "friday.html";
+                    break;
+                    case 6:
+                        window.location.href = "saturday.html";
+                    break;
+                    default:
+                        window.location.href = "class_schedule.html";
+                    break;
+                }
+            }
+        </script>
+    </head>
+</html>
