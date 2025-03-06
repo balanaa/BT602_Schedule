@@ -40,6 +40,7 @@ p{
 }
 .hrs{
     min-width: 100px;
+    max-width: 110px;
     padding: 0.25em;
 }
 .lect{
