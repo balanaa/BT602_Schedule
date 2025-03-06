@@ -1,6 +1,6 @@
 const CACHE_NAME = "schedule-pwa-v1";
 const FILES_TO_CACHE = [
-    "/BTBT602_Schedule/",
+    "/BT602_Schedule/",
      "/BT602_Schedule/schedule.css",
      "/BT602_Schedule/clock.js",
      "/BT602_Schedule/bg.img",
