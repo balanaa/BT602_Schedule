@@ -1,4 +1,3 @@
-
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(bg.img);
@@ -8,17 +7,16 @@ h1{
     color: white;
 }
 table{
-    border: 0.1rem;
     margin:auto;
     border-collapse: collapse;
-    background-color: yellow;                
+    background-color: yellow;              
 }
 thead{
     background-color: gold;
 }
 th,td{
     border: 0.1rem solid black;
-    padding: 0.5rem;
+    padding: 0.4em 1em;
 }
 a{
     text-decoration:none;
@@ -29,7 +27,7 @@ button{
     cursor: pointer;
     color: white;
     font-weight: 700;
-    padding: 0.3rem;    
+    padding: 0.3em;    
 }
 p{
     font-family: 'Segoe UI', Tahoma; 
@@ -37,8 +35,7 @@ p{
     margin: 0.5rem;
 }
 .hrs{
-    width: 100px;
-    height: 20px;
+    min-width: 100px;
 }
 .lect{
     background-color: rgb(30, 144, 255);
@@ -59,10 +56,16 @@ p{
     margin: 0.5rem;
 }
 td:empty{
-    border: none;
-}
+} 
+
 @media (width < 800px){
     html {
         font-size: .8rem;
+    }
+    .hrs{
+        min-width: 80px;
+    }
+    th, td {
+        padding: 0.6em;
     }
 }
