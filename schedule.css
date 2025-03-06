@@ -61,3 +61,8 @@ p{
 td:empty{
     border: none;
 }
+@media (width < 800px){
+    html {
+        font-size: .8rem;
+    }
+}
