@@ -1,6 +1,10 @@
+@font-face {
+    font-family: 'SampleFont';
+    src: url('segoeuithis.ttf') format('truetype');
+  }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'SampleFont', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(bg.img);
     text-align: center;
 }
@@ -31,7 +35,6 @@ button{
     padding: 0.3em;    
 }
 p{
-    font-family: 'Segoe UI', Tahoma; 
     font-weight: 700;
     margin: 0.5rem;
 }
