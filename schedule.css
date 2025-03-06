@@ -21,7 +21,7 @@ thead{
     background-color: gold;
 }
 th,td{
-    border: 0.1rem solid black;
+    border: 1px solid black;
     padding: 0.2em 1em;
 }
 a{
