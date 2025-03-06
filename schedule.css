@@ -63,7 +63,7 @@ p{
 td:empty{
 } 
 
-@media (width < 800px){
+@media (width < 1000px){
     html {
         font-size: .8rem;
     }
