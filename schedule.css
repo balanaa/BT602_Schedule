@@ -12,7 +12,8 @@ h1{
     color: white;
 }
 table{
-    margin:auto;
+    max-width: 90%;
+    margin: auto;
     border-collapse: collapse;
     background-color: yellow;              
 }
