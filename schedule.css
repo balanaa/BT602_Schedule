@@ -56,6 +56,7 @@ p{
     margin: 0.5rem;
 }
 td:empty{
+    border: none;
 } 
 
 @media (width < 800px){
