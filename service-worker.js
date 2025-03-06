@@ -4,7 +4,7 @@ const FILES_TO_CACHE = [
      "/BT602_Schedule/schedule.css",
      "/BT602_Schedule/clock.js",
      "/BT602_Schedule/bg.img",
-     "/BT602_Schedule/favicon.png",
+     "/BT602_Schedule/favicon.ico",
      "/BT602_Schedule/index.html",
      "/BT602_Schedule/tuesday.html",
      "/BT602_Schedule/wednesday.html",

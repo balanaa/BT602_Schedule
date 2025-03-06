@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html lang = "en">
     <head>
-        <title>BT602</title>
+        <title>BT503</title>
         <link rel="stylesheet" href = "schedule.css">
         <link rel="manifest" href="/BT602_Schedule/manifest.json">
         <script>
@@ -33,8 +33,8 @@
             // Register Service Worker 
             if ("serviceWorker" in navigator) {
                 navigator.serviceWorker.register("/BT602_Schedule/service-worker.js")
-                    .then((reg) => console.log("Service Worker Registered", reg))
-                    .catch((err) => console.log("Service Worker Registration Failed", err));
+                    .then(() => console.log("Service Worker Registered", reg))
+                    .catch((error) => console.log("Service Worker Registration Failed", error));
             }
         </script>
     </head>
