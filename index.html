@@ -33,8 +33,8 @@
             // Register Service Worker 
             if ("serviceWorker" in navigator) {
                 navigator.serviceWorker.register("/BT602_Schedule/service-worker.js")
-                    .then(() => console.log("Service Worker Registered"))
-                    .catch((error) => console.log("Service Worker Registration Failed", error));
+                    .then((reg) => console.log("Service Worker Registered", reg))
+                    .catch((err) => console.log("Service Worker Registration Failed", err));
             }
         </script>
     </head>
