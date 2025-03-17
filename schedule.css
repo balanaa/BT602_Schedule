@@ -58,7 +58,7 @@ p{
     margin: 0.5rem;
 }
 td:empty{
-    border: none;
+    border: 0;
 } 
 
 @media (width < 1000px){
